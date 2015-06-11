@@ -289,7 +289,7 @@
                             <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Panel de Control</a>
                         </li>
                         <li><!--fa-bar-chart-o -->
-                            <a href="#"><i class="fa fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-table fa-fw"></i> Charts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="{!! URL::asset('/d3') !!}" class="active">Listado</a>
