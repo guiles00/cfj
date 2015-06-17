@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-
+use App\Alumno;
 class AlumnosController extends Controller {
 
 	/**
@@ -15,11 +15,12 @@ class AlumnosController extends Controller {
 	public function index()
 	{
 		//
-		echo "nada";
+		//echo "nada";
 		//exit;
-		//$alumnos = User::all();
+		$alumnos = Alumno::all();
 		//echo "<pre>";
-		print_r($alumnos);
+		//print_r($alumnos);
+		return view('alumnos.index')->with('alumnos',$alumnos);
 	}
 
 	public function about()

@@ -59,6 +59,15 @@ Route::get('becas/{id}','DwarfController@show');
 Route::post('becas','DwarfController@store');
 
 Route::get('d3','D3Controller@index');
+
+Route::get('tablero','TableroController@index');
+Route::get('tablero/estadisticas','TableroController@estadisticasCurso');
+//Route::get('tablero/{id}','TableroController@estadisticasCurso');
+
+//Route::controller('tablero', 'TableroController');
+//Route::get('tablero','TableroController@index');
+//Route::get('esta','TableroController@getEstadisticasCurso');
+
 //Route::get('hobbits','HobbitController@index');
 
 
