@@ -1,9 +1,5 @@
 <?php namespace App;
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
+//modifico mismo archivo
 use Illuminate\Database\Eloquent\Model;
 
 class Alumno extends Model {
