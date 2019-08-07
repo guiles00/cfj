@@ -1,5 +1,5 @@
 <?php namespace App;
-//modifico este mismo archivo
+//modifico mismo archivo otra vez
 use Illuminate\Database\Eloquent\Model;
 
 class Alumno extends Model {
