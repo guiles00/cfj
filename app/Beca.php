@@ -1,5 +1,5 @@
 <?php namespace App;
-
+//modifico otro archivo
 
 use Illuminate\Database\Eloquent\Model;
 
